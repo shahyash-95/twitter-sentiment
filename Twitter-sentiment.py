@@ -63,7 +63,7 @@ def create_report(data):
 api = authenticate()
 #Step 3 - Retrieve Tweets
 query=input("Please enter search term:")
-public_tweets = api.search(q=query, count=20)
+public_tweets = api.search(q=query, count=500)
 tweets =[]
 polarity=[]
 scores=[]
