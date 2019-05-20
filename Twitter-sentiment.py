@@ -78,4 +78,4 @@ for tweet in public_tweets:
 tweets_analysis={'Tweet':tweets,'Score':scores, 'Polarity':polarity}
 data =pd.DataFrame(tweets_analysis)
 data.to_csv('report.csv',header=True, index=True)
-create_report(data)    
+create_report(data)
